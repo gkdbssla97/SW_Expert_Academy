@@ -11,7 +11,7 @@ for test in range(T):
     Match_cnt, Now_idx = 0, len(str1) - 1
     while Match_cnt != len(str1) and Now_idx < len(str2):
         if str2[Now_idx] in skip:
-            #print(str2[Now_idx], skip)
+            print(str2[Now_idx], skip)
             if str2[Now_idx] == skip[Match_cnt]:
                 Match_cnt += 1
                 Now_idx -= 1
